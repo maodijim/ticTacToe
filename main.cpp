@@ -151,7 +151,7 @@ int checkDiagonals() {
     char check = board[1][1];
     if (check == board[0][0] && check == board[2][2])
         return 0;
-    if (check == board[0][0] && check == board[2][2])
+    if (check == board[0][2] && check == board[2][0])
         return 1;
     return -1;
 }
